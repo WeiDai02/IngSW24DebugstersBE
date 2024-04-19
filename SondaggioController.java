@@ -18,7 +18,7 @@ class SondaggioController {
     @RequestMapping("/sondaggioPost")
     public RedirectView sondaggioPost() {
         RedirectView sondaggioPost = new RedirectView();
-        sondaggioPost.setUrl("https://www.survio.com/survey/d/O2K6F3U7I4U8Y4P9O");
+        sondaggioPost.setUrl("https://www.survio.com/survey/d/C8Q2G1A8U1L0F8H2A");
         return sondaggioPost;
     }
 }
