@@ -13,7 +13,7 @@
 
 
 <script>
-    fetch('http://localhost:8080/video/getvideo')
+    fetch('http://localhost:8080/api/videoTrailer')
         .then(response => response.text())
         .then(videoUrl => {
             // Costruisce l'iframe per incorporare il video
