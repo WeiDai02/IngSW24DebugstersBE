@@ -1,7 +1,7 @@
 package it.unife.ingsw202324.MicroservizioBase.services;
 
 import it.unife.ingsw202324.MicroservizioBase.models.VideoTable;
-import it.unife.ingsw202324.MicroservizioBase.repositories.MyRepository2;
+import it.unife.ingsw202324.MicroservizioBase.repositories.MyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,15 +11,15 @@ import java.util.List;
 public class VideoService {
 
     @Autowired
-    private MyRepository2 myRepository2;
+    private MyRepository myRepository;
 
     public List<VideoTable> getfirst() {
 
-        return myRepository2.findAll();
+        return myRepository.findAll();
     }
 
     public List<String> getselected() {
-        return myRepository2.getselected();
+        return myRepository.getselected();
 
 
     }
