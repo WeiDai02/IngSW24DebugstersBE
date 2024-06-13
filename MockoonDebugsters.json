@@ -1,0 +1,580 @@
+{
+  "uuid": "98976abe-4ca1-4b91-8630-36d651304027",
+  "lastMigration": 32,
+  "name": "Debugsters",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "ae7a4539-dda3-45a5-9abb-7941bbade5f7",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/recensioni",
+      "responses": [
+        {
+          "uuid": "e3bcf22a-6f20-4c28-9ba0-b13d1113cd85",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"recensione 1 evento 1\"\n}\n\n{\n  \"id\": \"1\"\n  \"description\": \"recensione 2 evento 1\"\n}\n\n{\n  \"id\": \"1\"\n  \"description\": \"recensione 3 evento 1\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "bda35a8c-183f-4d75-ae07-e207bee41f7e",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/mappe",
+      "responses": [
+        {
+          "uuid": "f39659a1-f234-4d32-a278-a740bc0e9c58",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"mappa luogo evento 1\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "92e92a35-0717-4b67-a450-b1f295dc7c3d",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/supportoUtente",
+      "responses": [
+        {
+          "uuid": "ba88e6e4-ed10-4054-89e2-446730640c65",
+          "body": "{\n  \"description\": \"pagina supporto utente\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "7b78446a-43d9-4dc9-b24b-1b8e279ca237",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/supportoTecnico",
+      "responses": [
+        {
+          "uuid": "cdb756da-9faa-4822-ae66-2c6d4e8d4efa",
+          "body": "{\n  \"description\": \"pagina supporto tecnico\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "5c62b597-055e-46da-8f5a-780881703031",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/filtri",
+      "responses": [
+        {
+          "uuid": "8c97bc8d-f990-4213-8541-2352a0971316",
+          "body": "{\n  \"description\": \"filtri ricerca eventi\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "2ea3b764-acbd-40e3-8efd-4da120d9bcf8",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/chat",
+      "responses": [
+        {
+          "uuid": "e8ec8ae6-052e-485f-8252-712fa831c7a5",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"chat evento 1\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "60cd3981-a686-4d1e-a53c-0cae1286d175",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/live",
+      "responses": [
+        {
+          "uuid": "6ab5cea4-0fce-4a14-871e-61428cce9810",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"diretta streaming evento 1\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "ebddb2bc-8b15-4183-9520-98bd23fb6bbf",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/biglietteria",
+      "responses": [
+        {
+          "uuid": "e48d7397-574a-45a2-b2f8-b63a7014bf27",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"biglietteria evento 1\"\n}\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "534c3481-d51c-4578-8c72-303c376c12eb",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/faq",
+      "responses": [
+        {
+          "uuid": "294717ce-72b3-473f-9a09-4423afa664a9",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"domanda faq 1\"\n}\n\n{\n  \"id\": \"2\"\n  \"description\": \"domanda faq 2\"\n}\n\n{\n  \"id\": \"3\"\n  \"description\": \"domanda faq 3\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "5868329e-ecd0-4cd0-9002-006e0cf17ab8",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/sponsor",
+      "responses": [
+        {
+          "uuid": "a65af566-1a37-48e7-9048-3db4450bddfa",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"sponsor 1 evento 1\"\n}\n\n{\n  \"id\": \"1\"\n  \"description\": \"sponsor 2 evento 1\"\n}\n\n{\n  \"id\": \"1\"\n  \"description\": \"sponsor 3 evento 1\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "a4826609-72e3-4580-8d7c-fc448831108e",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/datiEvento",
+      "responses": [
+        {
+          "uuid": "ea1ad1eb-6a89-40d9-980d-8ec6d0710ec7",
+          "body": "{\n  \"id_e\": \"1\",\n  \"id_u\": \"0\",\n  \"nome_utente\": \"Alessandro\",\n  \"nome_evento\": \"Fluo Run Ferrara\",\n  \"descrizione_evento\": \"Preparati a brillare e a divertirti insieme a migliaia di partecipanti in un evento unico che combina corsa, fitness e festa. Non mancare!\",\n  \"data_evento\": \"ven, 12 lug 2024 - sab, 13 lug 2024\",\n  \"ora_evento\": \"18:00 - 01:00\",\n  \"luogo_evento\": \"Piazza Ariostea Ferrara 44121\",\n  \"nome_organizzatore\": \"Polisportiva Fluo Run A.S.D.\",\n  \"informazioni_evento\": \"Siete pronti a vivere un’esperienza indimenticabile? Vi presentiamo la Fluo Run Ferrara, l’evento sportivo più Fluo dell’anno! La Fluo Run è molto più di una semplice corsa, è un vero e proprio festival di fitness e benessere che si svolge di sera, in un’atmosfera magica e piena di energia. Qui potrete trovare tutto ciò che serve per divertirvi e sentire l’energia positiva che deriva dal movimento e dal divertimento: dalla musica alle attività di riscaldamento, dalla Zumba allo Strong, fino alla “fun race” di 6 km tra le mura Estensi e il bellissimo centro storico di Ferrara tra mille luci Fluo. La Fluo Run è aperta a tutti: non importa se siete un corridore esperto o un principiante alle prime armi, se amate correre, camminare o ballare, qui troverete l’atmosfera perfetta per divertirvi e sentire la felicità che deriva dal movimento. Quindi, cosa aspettate? Iscrivetevi subito e preparatevi a vivere una serata di pura felicità, sport e divertimento. Leggere e accettare interamente il regolamento e la dichiarazione di responsabilità presenti sul sito. www.fluorun.eu/regolamento. Con l’iscrizione il partecipante accetta e condivide le regole disposte dalla società organizzatrice Fluo Run A.S.D. Nata nel giugno 2012 come una corsa/camminata di 6 km per promuovere la felicità e la salute psicofisica e mentale legate al movimento. Nel tempo, il format si è ampliato, diventando un vero e proprio festival di fitness e sport, un evento che riunisce una vincente miscela di attività nello stesso giorno. Dal palco della Fluo Run, i nostri esperti e qualificati coach si esibiranno, insieme a tutti i partecipanti, nelle più svariate discipline come Warm-up, Zumba e Strong. Terminate le attività fitness partirà la Fluo Run, una vera e propria “fun race” di 6 Km che si svolge di sera, in un contesto ricco di gadget luminosi, tra le mura Estensi e il bellissimo centro storico di Ferrara. Conclude il Fitness day, un live set con musica dal vivo, dove potrai ascoltare, insieme a tutti gli altri “Runners”, tutte le migliori canzoni della musica dance. Insomma un appuntamento imperdibile con il benessere e il divertimento! Che tu sia un corridore, un camminatore o un principiante alle prime armi, Fluo Run è un festival per promuovere benessere e attività fisica in modo completamente divertente!!! Una manifestazione rivolta a tutti che si svolge dal pomeriggio fino a sera, in un contesto ricco di gadget luminosi, colori, musica, allegria e festa. L’obiettivo non è raggiungere la massima performance sportiva, bensì raggiungere il massimo livello di benessere e piacere con il dress code “FLUO” dove il vero protagonista sei tu. Insieme a tutti gli altri partecipanti vivrai un’esperienza indimenticabile. Dalla prima edizione ad oggi è stata una continua escalation di iscritti e consensi con migliaia di partecipanti ad ogni edizione, ma al di là dei numeri, sono le emozioni e le mille luci Fluo a rendere questo evento unico. Fluo Run è energia positiva e piacere allo stato puro ed è per questa ragione che l’evento si sta facendo sempre più strada poiché miscela gioia di stare insieme e promuove il miglioramento della salute e del benessere di tutti. Oltre il 40% dei partecipanti si avvicina per la prima volta all’attività fisica e la loro gioia e il loro divertimento è la nostra soddisfazione più grande. Vedere famiglie con bambini piccoli, giovani e meno giovani, ci rende orgogliosi di organizzare eventi sportivi per tutti!!! Il programma della manifestazione Fluo Run inizia alle 18:00 con l'apertura dell'Area distribuzione kit e dell'Area make-up presso piazza Ariostea a Ferrara. Qui i partecipanti possono ritirare il loro kit gara e prepararsi all'evento tra gadget luminosi e trucchi fluorescenti. Alle 19:45 inizia l'attività fitness con il WARM-UP, un riscaldamento della durata di 20 minuti, che ha lo scopo di preparare gradualmente il corpo alla successiva attività fisica, evitando affaticamenti, contratture e stiramenti. Dopo il WARM-UP, si passa alla ZUMBA, una sessione di ballo della durata di 40/45 minuti, che coinvolge centinaia di partecipanti al ritmo della musica caraibica. L'energia e l'entusiasmo dei partecipanti rendono l'atmosfera ancora più coinvolgente e divertente. Infine, si arriva all'attività più intensa: STRONG. Questo workout, perfettamente sincronizzato con la musica elettronica, unisce esercizi ad alta intensità, aiutando a migliorare la forza, la resistenza e la coordinazione. L'aria di festa e la musica energizzante e coinvolgente creano un'atmosfera contagiosa dove tutti possono unirsi e divertirsi senza esitazione. Dopo le attività fitness, arriva il momento tanto atteso: il countdown per l'inizio della Fluo Run. Una corsa di 6 km, illuminata da mille colori fluo, che coinvolge tutti i partecipanti in un'esperienza indimenticabile. Anche dopo la Fluo Run, l'energia e la festa continuano con la premiazione dei partecipanti più eccentrici e caratteristici, accompagnati da musica e intrattenimento. L'evento è stato studiato per offrire a tutti i partecipanti un'esperienza che coniughi l'attività fisica con lo spettacolo e l'energia positiva, creando un'atmosfera di divertimento e di benessere, dove il movimento e la socializzazione si uniscono in un'unica grande festa.\",\n  \"prezzo_biglietti_evento\": [5, 15],\n  \"immagini_banner_evento\": [\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/436329386_487099043644785_5271676144667460899_n.webpfull.jpg\",\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/443265424_407763068831766_4065747851899775151_n.webpfull.jpg\",\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/276066366_150769857400919_7882973112327406447_n.webpfull.jpg\",\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/276297237_3299184677022681_2055632511325760372_n.webpfull.jpg\"],\n  \"immagini_secondarie_evento\": [\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/436379723_412674304921227_4838285042179001828_n.webpfull.jpg\",\n      \"https://www.fluorun.eu/wp-content/uploads/sb-instagram-feed-images/241850381_238422394913585_4356389131637881325_n.webpfull.jpg\"],\n  \"utente_segue_evento\": false\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "ed54cc05-ace7-42b8-b433-39a66356becb",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/orgProfilo",
+      "responses": [
+        {
+          "uuid": "9cee968e-9904-455f-8caf-dee2cca5bc0f",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"profilo organizzatore evento 1\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "bf87ed4a-a137-485e-bce0-fd6ef2e93192",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/profiloUtente",
+      "responses": [
+        {
+          "uuid": "8b3f235a-c600-4ac5-9551-09de52ec11f9",
+          "body": "{\n  \"id\": \"1\"\n  \"description\": \"profilo utente 1\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "adf76171-981c-4945-b6c7-9f8ab0d3da8f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/segnalaEvento",
+      "responses": [
+        {
+          "uuid": "e2262f07-ed82-46d6-af81-30da2f33b1cd",
+          "body": "{\n  \"description\": \"Pagina di segnalazione evento\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "96643189-f422-4735-8b26-b65e76919f2f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/homepage",
+      "responses": [
+        {
+          "uuid": "112905cd-1807-4a61-ac39-8e268b7d369d",
+          "body": "{\n  \"description\": \"Home Page sito\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "3b6e6571-673b-4ee3-ba77-6ff383bde9a9",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/iscrizione",
+      "responses": [
+        {
+          "uuid": "bf3dbee6-ecc3-4371-84ea-70e33bc00c6e",
+          "body": "{\n  \"description\": \"Pagina d'iscrizione del profilo utente\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "a4826609-72e3-4580-8d7c-fc448831108e"
+    },
+    {
+      "type": "route",
+      "uuid": "3b6e6571-673b-4ee3-ba77-6ff383bde9a9"
+    },
+    {
+      "type": "route",
+      "uuid": "5c62b597-055e-46da-8f5a-780881703031"
+    },
+    {
+      "type": "route",
+      "uuid": "bf87ed4a-a137-485e-bce0-fd6ef2e93192"
+    },
+    {
+      "type": "route",
+      "uuid": "bda35a8c-183f-4d75-ae07-e207bee41f7e"
+    },
+    {
+      "type": "route",
+      "uuid": "ed54cc05-ace7-42b8-b433-39a66356becb"
+    },
+    {
+      "type": "route",
+      "uuid": "ebddb2bc-8b15-4183-9520-98bd23fb6bbf"
+    },
+    {
+      "type": "route",
+      "uuid": "2ea3b764-acbd-40e3-8efd-4da120d9bcf8"
+    },
+    {
+      "type": "route",
+      "uuid": "60cd3981-a686-4d1e-a53c-0cae1286d175"
+    },
+    {
+      "type": "route",
+      "uuid": "ae7a4539-dda3-45a5-9abb-7941bbade5f7"
+    },
+    {
+      "type": "route",
+      "uuid": "96643189-f422-4735-8b26-b65e76919f2f"
+    },
+    {
+      "type": "route",
+      "uuid": "534c3481-d51c-4578-8c72-303c376c12eb"
+    },
+    {
+      "type": "route",
+      "uuid": "5868329e-ecd0-4cd0-9002-006e0cf17ab8"
+    },
+    {
+      "type": "route",
+      "uuid": "92e92a35-0717-4b67-a450-b1f295dc7c3d"
+    },
+    {
+      "type": "route",
+      "uuid": "7b78446a-43d9-4dc9-b24b-1b8e279ca237"
+    },
+    {
+      "type": "route",
+      "uuid": "adf76171-981c-4945-b6c7-9f8ab0d3da8f"
+    }
+  ],
+  "proxyMode": true,
+  "proxyHost": "http://localhost:8080",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
